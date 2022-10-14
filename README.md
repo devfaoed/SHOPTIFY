@@ -10,39 +10,38 @@ The Reuable SHOPTIFY is the idea to decrease the development time in HTML, CSS a
 
 1. Fork this repository.
 
-2. Clone your forked copy of the project.
+2. Clone your forked copy of the project: <br>
     git clone https://github.com/YourGithubUsername/SHOPTIFY.git
 
-3. Navigate to the project directory.
+3. Navigate to the project directory: <br>
     cd SHOPTIFY
 
-4. Create a new branch:
+4. Create a new branch: <br>
      git checkout -b YourBranchName
 
-5. Make changes in source code.
+5. Make changes in source code: <br>
 
-6. Stage your changes and commit
-     git add .
+6. Stage your changes and commit: <br>
+    git add . <br>
     git commit -m "<your_commit_message>"
 
-7. Push your local commits to the remote repo.
+7. Push your local commits to the remote repo: <br>
     git push origin YourBranchName
 
 8. Create a PR
 
 9. If someone will contribute to this repository, then those modifications will not be reflected in your local # repository. For correcting that:
 
-10. Setup a reference(remote) to the original repository to obtain all the changes from the remote.
+10. Setup a reference(remote) to the original repository to obtain all the changes from the remote: <br>
     git remote add upstream https://github.com/devfaoed/SHOPTIFY.git
 
-11. Check the remotes for this repository.
-     git remote -v 
+11. Check the remotes for this repository : <br>
+    git remote -v 
 
-12. Fetching from the remote repository will bring in its branches and their relevant commits.
+12. Fetching from the remote repository will bring in its branches and their relevant commits: <br>
     git fetch upstream
 
-13. Make sure that you're on your master branch.
+13. Make sure that you're on your master branch: <br>
     git checkout main
 
-14. Now that we have downloaded the upstream repository, we want to integrate its modifications into our local branch. This will bring that branch into sync with the source, without losing our local modifications.
-     git merge upstream/main
+14. Now that we have downloaded the upstream repository, we want to integrate its modifications into our local branch. This will bring that branch into sync with the source, without losing our local modifications :git merge upstream/main
